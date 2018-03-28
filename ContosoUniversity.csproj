@@ -4,8 +4,31 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils" Version="2.0.0" />
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Data\" />
+    <Folder Include="Pages\PagesStudents\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="PagesStudents\Create.cshtml" />
+    <Content Remove="PagesStudents\Delete.cshtml" />
+    <Content Remove="PagesStudents\Details.cshtml" />
+    <Content Remove="PagesStudents\Edit.cshtml" />
+    <Content Remove="PagesStudents\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="PagesStudents\Create.cshtml.cs" />
+    <Compile Remove="PagesStudents\Delete.cshtml.cs" />
+    <Compile Remove="PagesStudents\Details.cshtml.cs" />
+    <Compile Remove="PagesStudents\Edit.cshtml.cs" />
+    <Compile Remove="PagesStudents\Index.cshtml.cs" />
   </ItemGroup>
 </Project>
