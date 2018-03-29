@@ -16,6 +16,8 @@
     <Folder Include="Models\" />
     <Folder Include="Data\" />
     <Folder Include="Pages\PagesStudents\" />
+    <Folder Include="Models\SchoolViewModels\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="PagesStudents\Create.cshtml" />
@@ -30,5 +32,8 @@
     <Compile Remove="PagesStudents\Details.cshtml.cs" />
     <Compile Remove="PagesStudents\Edit.cshtml.cs" />
     <Compile Remove="PagesStudents\Index.cshtml.cs" />
+    <Compile Remove="Migrations\20180328101356_Initial.cs" />
+    <Compile Remove="Migrations\20180329130419_InitialCreate1.Designer.cs" />
+    <Compile Remove="Migrations\SchoolContextModelSnapshot.cs" />
   </ItemGroup>
 </Project>

@@ -12,8 +12,8 @@ using System;
 namespace ContosoUniversity.Migrations
 {
     [DbContext(typeof(SchoolContext))]
-    [Migration("20180328105101_test")]
-    partial class test
+    [Migration("20180329133736_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
